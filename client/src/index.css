@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+:root {
+    font-family: "Manrope", sans-serif;
+    color: #172033;
+    background: #f7f8fa;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+}
+
+/* Hirely wordmark */
+
+.hirely-logo {
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: -0.075em;
+    line-height: 1;
+    color: #172033;
+}
+
+.hirely-logo::after {
+    content: ".";
+    color: #4F46E5;
+}
+
+.hirely-logo-small {
+    font-size: 19px;
+}
